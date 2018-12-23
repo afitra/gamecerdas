@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+ <center>
+<h1>seberapa cepat otak anda !!! </h1>
+<p>Dapatkan jutaan  point dalam 1 menit </p>
+        <form>
+            <label id='header' display='block'>Pilih tantanganmu  !!!</label>
+            <select id="kuis" name='kuis'>
+                <option value='zonk'>sesuaikan kemampuan anda</option>
+                <option value='penjumlahan'>penjumlahan</option>
+                <option value='pengurangan'>pengurangan</option>
+                <option value='perkalian'>perkalian</option>
+            </select>
+            <button type="button" onclick='tampil()' class='btn'>mulai</button>
+            <input type="button" value = "reset" onclick="history.go(0)" class='btn'/>
+            <button type="button" onclick='aturan()' class='btn'>aturan pakai</button>
+            
+        </form>
+        <br>
+        <label> point yang telah kamu raih : </label>
+        <div id='score' style='display:block'  >0</div><br>
+         <div id='selamat' style='display:none' ><img src='gif/benar.gif'  width=300 px height=300 px  ></div>
+         <div id='maaf' style='display:none' ><img src='gif/ayam.gif'  width=300 px height=300 px  ></div>
+
+        <!-- ================================================== -->
+        
+        
+        <div id='g1' style='display:none' ><img src='gif/plus.gif'  width=300 px height=300 px  ></div>
+        <div id='g2' style='display:none'><img src='gif/min.gif'  width=400 px height=300 px></div>
+        <div id='g3' style='display:none'><img src='gif/kali.gif'  width=400 px height=300 px></div>
+        <br>
+    </center>
+                     
+        <div id='soal'>
+            <table id='tabelsoal' style='display:none' padding-left=20 px >
+                <tr>
+                    <td>angka 1 : <input type="text" id="angka1"   readonly  ></td>
+                    <td>angka 2 : <input type="text" id="angka2"   readonly > </td>
+                    <td> input jawaban : <input type="text" id="jawab"   ></td>
+                     <td><button id='submit'   type='button' onclick='koreksi()'  >submit</button></td> 
+                </tr>
+            </table>
+
+     
+        
+        </div>
+
+<footer>
+            <h4>Copyright ngglempang18</h4>
+    </footer>
+  
+<script src="hitung.js"></script>
+ 
+
+</body>
+  
+</html>

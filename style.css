@@ -1,0 +1,33 @@
+ 
+ /* #soal { */
+     /* padding: 5%; */
+     /* margin: 0 auto; */
+    /* /* position: relative; */
+    /* left: 200px; 
+
+ }
+  */
+
+  table{
+      padding-left: 14%;
+      text-align: center;
+      
+  }
+  input{
+      text-align: center;
+       
+  }
+  footer {
+    position: fixed;
+    padding-top: 27%
+ }
+
+ .btn {
+     font-size: 16px;
+     padding: 5px;
+     border: none;
+     background-color: rgb(104, 195, 163);
+ }
+ .btn:hover {
+     background-color: gray;
+ }
